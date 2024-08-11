@@ -1,0 +1,61 @@
+.dashboard-container {
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  background-color: #007bff; /* Blue background */
+  padding: 15px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.navbar-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.navbar-button {
+  padding: 10px 15px;
+  color: white;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 5px;
+  text-decoration: none; /* Remove underline */
+  transition: background-color 0.3s;
+}
+
+.navbar-button:hover {
+  background-color: rgba(255, 255, 255, 0.2); /* Lighten on hover */
+}
+
+.body-content {
+  background-color: white; /* White background for the body */
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 20px; /* Space around the body content */
+}
+
+.account-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.account-table th, .account-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+.account-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}

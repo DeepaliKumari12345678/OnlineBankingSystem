@@ -26,7 +26,7 @@ const handleSubmit = async (e) => {
     const balance = generateBalance();
 
     try {
-        const response = await fetch('http://localhost:8080/api/account/create', {
+        const response = await fetch('http://localhost:8080/api/account/create','https://onlinebankingsystemb-production.up.railway.app/' {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
